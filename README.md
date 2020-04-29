@@ -7,11 +7,15 @@ The provided [Dockerfile](Dockerfile) creates a Docker image with Open Data Cube
 A [Docker Compose](docker-compose.yml) example file is provided to set up a fully functional Open Data Cube instance, including the underlying PostgreSQL 10.6 database.\
 To use it you can issue:
 
-```docker-compose up -d```
+```bash
+docker-compose up -d
+```
 
 Once the above completes the Open Data Cube instance is ready to be initialized with:
 
-```docker-compose exec datacubecore datacube -v system init```
+```bash
+docker-compose exec datacubecore datacube -v system init
+```
 
 The above prints out the following sort of logging on stdout:
 
