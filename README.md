@@ -4,7 +4,7 @@
 The provided [Dockerfile](Dockerfile) creates a Docker image with Open Data Cube Core v1.7 set up by means of Miniconda.
 
 ## Docker Compose
-A [Docker Compose](docker-compose.yml) example file is provided to set up a fully functional Open Data Cube instance, including the underlying PostgreSQL 10.6 database.\
+A [Docker Compose](docker-compose.yml) example file is provided to set up a fully functional Open Data Cube instance, including the underlying PostgreSQL 11.3 database.\
 To use it you can issue:
 
 ```bash
