@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  datacubedb:
+    image: postgres:11.3
+    container_name: datacubedb
+    environment:
+      - POSTGRES_DB=datacube
+      - POSTGRES_PASSWORD=localuser1234
+      - POSTGRES_USER=dc_user
+    restart: always
+  
+  datacubecore:
+    build: .
+    container_name: datacubecore
+    restart: always
