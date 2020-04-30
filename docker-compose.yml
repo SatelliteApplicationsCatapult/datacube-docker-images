@@ -11,6 +11,7 @@ services:
     restart: always
   
   datacubecore:
-    build: .
+    image: satapps/datacube-core:v1.0.0
+    #build: .
     container_name: datacubecore
     restart: always
