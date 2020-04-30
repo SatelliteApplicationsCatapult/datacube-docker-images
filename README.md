@@ -2,6 +2,10 @@
 
 :warning: This repo is for development purposes only :warning:
 
+## Building and pushing to Docker Hub
+### Automated builds
+Docker images are automatically built and published to [Docker Hub](https://hub.docker.com/u/satapps) from this repo when a release tag, vX.Y.Z, is created.
+
 ## Dockerfile
 The provided [Dockerfile](Dockerfile) creates a Docker image with Open Data Cube Core v1.7 set up by means of Miniconda.
 
