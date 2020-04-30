@@ -1,4 +1,6 @@
-# Open Data Cube Core Docker image
+# Open Data Cube Core Docker images
+
+:warning: This repo is for development purposes only :warning:
 
 ## Dockerfile
 The provided [Dockerfile](Dockerfile) creates a Docker image with Open Data Cube Core v1.7 set up by means of Miniconda.
